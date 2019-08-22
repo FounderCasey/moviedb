@@ -12,6 +12,7 @@
 		9187DDFD230C4127008852EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9187DDFB230C4127008852EF /* Main.storyboard */; };
 		9187DDFF230C412B008852EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9187DDFE230C412B008852EF /* Assets.xcassets */; };
 		9187DE02230C412B008852EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9187DE00230C412B008852EF /* LaunchScreen.storyboard */; };
+		9187DE0A230CAFFF008852EF /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9187DE09230CAFFF008852EF /* MoviesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9187DDFE230C412B008852EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9187DE01230C412B008852EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9187DE03230C412B008852EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9187DE09230CAFFF008852EF /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				9187DDFE230C412B008852EF /* Assets.xcassets */,
 				9187DE00230C412B008852EF /* LaunchScreen.storyboard */,
 				9187DE03230C412B008852EF /* Info.plist */,
+				9187DE09230CAFFF008852EF /* MoviesTableViewController.swift */,
 			);
 			path = Movie;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9187DE0A230CAFFF008852EF /* MoviesTableViewController.swift in Sources */,
 				9187DDFA230C4127008852EF /* ViewController.swift in Sources */,
 				9187DDF8230C4127008852EF /* AppDelegate.swift in Sources */,
 			);
